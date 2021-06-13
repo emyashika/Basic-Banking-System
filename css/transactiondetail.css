@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #36454F;
+}
+
+.container{
+    position: absolute;
+    max-width: 950px;
+    height: 500px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leftCtn{
+    position: relative;
+    background: white;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    color: #1e221b;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftCtn header{
+    color:#1e221b;
+    font-size: 44px;
+}
+
+.rightCtn{
+    position: relative;
+    background: #EDF5E1;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+}
+
+.rightCtn header{
+    color: rgb(39, 36, 36);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.row{
+    height: 100%;
+}
+
+.myCard{
+    position: relative;
+    background: #fff;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+  
